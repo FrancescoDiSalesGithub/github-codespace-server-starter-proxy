@@ -28,7 +28,7 @@ if [ $1 == "" ]
 then
     echo "please pass as argument your ngrok auth token"
 else
-    ./ngrok config add-authtoken 2NFDA7FBMluRcJwxFwnaOnq9SPX_5ymqWhtnu1sAoEn4Y9sP
+    ./ngrok config add-authtoken $1
     echo "auth token saved"
 fi
 
